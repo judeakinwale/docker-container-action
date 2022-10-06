@@ -11,7 +11,7 @@ jobs:
     
       - name: Hello world action step
         id: hello
-        uses: judeakinwale/docker-container-action@v1
+        uses: judeakinwale/docker-container-action@v2
         with:
           who-to-greet: 'jude'
           
