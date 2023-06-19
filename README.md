@@ -19,5 +19,3 @@ The time we greeted you.
 uses: judeakinwale/container-action-demo@v1
 with:
   who-to-greet: 'Mona the Octocat'
-
-...
