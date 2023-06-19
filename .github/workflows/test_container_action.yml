@@ -1,7 +1,12 @@
 
 name: Testing Container Action in Azure Workflows
 
-on: [push pull_request]
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
 
 jobs: 
   build:
